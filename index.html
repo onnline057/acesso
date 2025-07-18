@@ -94,9 +94,9 @@
       <div class="online-indicator"></div>
     </div>
 
-    <h2>LALA </h2>
+    <h2>LALA</h2>
     <p>21 anos</p>
-    <p>BAHIA
+    <p>BAHIA</p>
 
     <button class="btn-whatsapp" onclick="redirecionarWhatsApp()">Falar no WhatsApp</button>
   </div>
@@ -104,17 +104,11 @@
   <script>
     const numerosWhatsApp = [
       '557391312463',  // Número secundário
-      '557391352960', //  Número primeiro 
+      '557391352960',  // Número primeiro
     ];
 
     function redirecionarWhatsApp() {
       const index = Math.floor(Math.random() * numerosWhatsApp.length);
       const numero = numerosWhatsApp[index];
       const mensagem = encodeURIComponent("Oi Lais, tenho interesse!");
-      const link = https://wa.me/${numero}?text=${mensagem};
-      window.location.href = link;
-    }
-  </script>
-
-</body>
-</html>
+      const link = `https
